@@ -1,0 +1,21 @@
+form {
+    margin: 0 auto; /* menyelaraskan ke tengah */
+    width: 50%; /* lebar form */
+    border: 1px solid #ccc; /* menambahkan border */
+    padding: 10px; /* menambahkan padding */
+    box-sizing: border-box; /* mempertahankan lebar dan padding */
+}
+input[type=text] {
+    width: 100%; /* lebar input merk */
+    padding: 12px 20px; /* menambahkan padding */
+    margin: 8px 0; /* menambahkan margin */
+    box-sizing: border-box; /* mempertahankan lebar dan padding */
+    border: 2px solid #ccc; /* menambahkan border */
+    border-radius: 4px; /* menambahkan radius */
+}
+input[type=submit]:hover {
+   background-color: deepskyblue;
+}
+h2{
+    text-align: center;
+}
